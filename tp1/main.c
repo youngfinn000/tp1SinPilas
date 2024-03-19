@@ -3,10 +3,14 @@
 #include <time.h>
 
 //funciones
-//1
+//1 Desarrollar una función que devuelva un valor RANDOM en el rango de 0 a 100.
 int numRandom ();
-//2
+
+//2 Diseñe una función que reciba 3 números enteros y muestre el mayor y el menor.
 void mostarMenorMayor (int uno, int dos, int tres);
+
+//3 Diseñe una función que reciba un número entero N y realice la suma de los números
+// enteros positivos menores que N y lo retorne. N es un  dato ingresado por el usuario en el main.
 
 
 
@@ -36,7 +40,7 @@ int main()
 
     case 2:
 printf("ingrese tres numeros enteros distintos\n");
-scanf("%d %d %d",num1, num2,num3);
+scanf("%d %d %d",&num1,&num2,&num3);
 
 
  mostarMenorMayor(num1,num2,num3);
@@ -114,11 +118,11 @@ void mostarMenorMayor (int uno, int dos, int tres)
         menor = uno;
     }
 //---------------------------
-    if (uno < mayor)
+    if (uno > mayor)
     {
         mayor = uno;
     }
-    else if (tres < mayor)
+    else if (tres > mayor)
     {
 
         mayor = tres;
@@ -131,4 +135,7 @@ void mostarMenorMayor (int uno, int dos, int tres)
 printf("el menor numero es : %d y el mayor numero es : %d.\n", menor, mayor);
 }
 
+//3
+
+int sumaPositivosMenores
 
