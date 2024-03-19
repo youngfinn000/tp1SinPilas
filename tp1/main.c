@@ -137,5 +137,5 @@ printf("el menor numero es : %d y el mayor numero es : %d.\n", menor, mayor);
 
 //3
 
-int sumaPositivosMenores
+//int sumaPositivosMenores
 
