@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1711151649 source:c:\users\usuario\desktop\utn-practico-1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
